@@ -1,0 +1,48 @@
+const K = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models";
+
+export const MODELS = [
+  {
+    id: "fox",
+    label: "Fox",
+    url: `${K}/Fox/glTF-Binary/Fox.glb`,
+    scale: 0.012,
+    position: [0, 0, 0],
+    rotation: [0, 0, 0],
+    description: "Animated low-poly fox with walk cycle.",
+    tag: "Animated",
+    autoAnimate: true,
+  },
+  {
+    id: "duck",
+    label: "Duck",
+    url: `${K}/Duck/glTF-Binary/Duck.glb`,
+    scale: 0.015,
+    position: [3, 0, 1],
+    rotation: [0, -0.5, 0],
+    description: "Classic rubber duck — the original glTF test model.",
+    tag: "Static",
+    autoAnimate: false,
+  },
+  {
+    id: "camera",
+    label: "Camera",
+    url: `${K}/AntiqueCamera/glTF-Binary/AntiqueCamera.glb`,
+    scale: 0.08,
+    position: [-3, 0, -1],
+    rotation: [0, 0.8, 0],
+    description: "Detailed antique camera with PBR materials.",
+    tag: "PBR",
+    autoAnimate: false,
+  },
+  {
+    id: "helmet",
+    label: "Helmet",
+    url: `${K}/DamagedHelmet/glTF-Binary/DamagedHelmet.glb`,
+    scale: 1.0,
+    position: [0, 1.5, -3],
+    rotation: [0, 0, 0],
+    description: "Sci-fi damaged helmet with advanced PBR rendering.",
+    tag: "PBR",
+    autoAnimate: false,
+  },
+];
